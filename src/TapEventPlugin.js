@@ -19,12 +19,12 @@
 
 "use strict";
 
-var EventConstants = require('react-dom/lib/EventConstants');
-var EventPluginUtils = require('react-dom/lib/EventPluginUtils');
-var EventPropagators = require('react-dom/lib/EventPropagators');
-var SyntheticUIEvent = require('react-dom/lib/SyntheticUIEvent');
+var EventConstants = require('./EventConstants.js');
+var EventPluginUtils = require('./EventPluginUtils.js');
+var EventPropagators = require('./EventPropagators.js');
+var SyntheticUIEvent = require('./lib/SyntheticUIEvent.js');
 var TouchEventUtils = require('./TouchEventUtils');
-var ViewportMetrics = require('react-dom/lib/ViewportMetrics');
+var ViewportMetrics = require('./ViewportMetrics.js');
 
 var keyOf = require('fbjs/lib/keyOf');
 var topLevelTypes = EventConstants.topLevelTypes;
