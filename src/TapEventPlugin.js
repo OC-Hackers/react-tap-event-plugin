@@ -22,7 +22,7 @@
 var EventConstants = require('./EventConstants.js');
 var EventPluginUtils = require('./EventPluginUtils.js');
 var EventPropagators = require('./EventPropagators.js');
-var SyntheticUIEvent = require('./lib/SyntheticUIEvent.js');
+var SyntheticUIEvent = require('./SyntheticUIEvent.js');
 var TouchEventUtils = require('./TouchEventUtils');
 var ViewportMetrics = require('./ViewportMetrics.js');
 
